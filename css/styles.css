@@ -738,15 +738,15 @@ nav ul ul ul a {
   font-family: 'Barlow Condensed', serif;
   font-size: 40px;
   line-height: 50px;
-  /*color: #691642;*/
+  color: #691642;
   font-weight: 600;
   text-transform: uppercase;
 	
-	background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+	/*background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;*/
 }
 .welco_cont_area h4 {
   font-family: 'Barlow Condensed', serif;

@@ -645,6 +645,7 @@ nav ul ul ul a {
   text-decoration: none;
   text-align: left;
   transition: all .2s ease-in-out 0s;
+	background: none;
 }
 .top_social_media_menu li a:hover {
   transform: translateZ(0);

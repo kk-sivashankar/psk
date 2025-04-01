@@ -203,11 +203,34 @@ nav ul ul ul a {
 	
 }
 /*---------(min-width:600px) and (max-width:768px)---------------*/
-@media only screen and (min-width:600px) and (max-width:768px) {}
+@media only screen and (min-width:600px) and (max-width:768px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
+}
 /*---------(min-width:769px) and (max-width:992px)---------------*/
-@media only screen and (min-width:769px) and (max-width:992px) {}
+@media only screen and (min-width:769px) and (max-width:992px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
+}
 /*---------(min-width:993px) and (max-width:1199px)---------------*/
 @media only screen and (min-width:993px) and (max-width:1199px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   .slide_viewer {
     height: 53.1vh !important;
   }
@@ -271,6 +294,13 @@ nav ul ul ul a {
   }
 }
 @media only screen and (min-width:1200px) and (max-width:1300px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   .slide_viewer {
     height: 83vh !important;
   }
@@ -333,6 +363,13 @@ nav ul ul ul a {
 }
 /*---------(min-width:1301px) and (max-width:1400px)---------------*/
 @media only screen and (min-width:1301px) and (max-width:1400px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   nav ul li a {
     font-size: 16px !important;
     padding: 13px 8px !important;
@@ -387,6 +424,13 @@ nav ul ul ul a {
 }
 /*---------(min-width:1401px) and (max-width:1680px)---------------*/
 @media only screen and (min-width:1401px) and (max-width:1600px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   nav ul li a {
     padding: 9px !important;
     font-size: 18px !important;
@@ -449,6 +493,13 @@ nav ul ul ul a {
 }
 /*---------(min-width:1681px) and (max-width:1699px)---------------*/
 @media only screen and (min-width:1601px) and (max-width:1700px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   nav ul li a {
     font-size: 19px !important;
     padding: 15px 19px !important;
@@ -479,6 +530,13 @@ nav ul ul ul a {
 }
 /*---------(min-width:1700px) and (max-width:2000px)---------------*/
 @media only screen and (min-width:1701px) and (max-width:2000px) {
+.hide_in_oth_device {
+  visibility: hidden !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: block !important;
+}
   nav ul li a {
     font-size: 22px !important;
     padding: 12px 20px !important;
@@ -679,15 +737,15 @@ nav ul ul ul a {
   font-family: 'Barlow Condensed', serif;
   font-size: 40px;
   line-height: 50px;
-  color: #691642;
+  /*color: #691642;*/
   font-weight: 600;
   text-transform: uppercase;
 	
-	/*background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+	background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;*/
+    -moz-text-fill-color: transparent;
 }
 .welco_cont_area h4 {
   font-family: 'Barlow Condensed', serif;
